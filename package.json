@@ -1,0 +1,33 @@
+{
+  "name": "my-tools-cli",
+  "version": "1.0.0",
+  "description": "my tools cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+  },
+  "bin": {
+    "nf-deploy": "./bin/fd.js",
+    "nf-release": "./bin/vc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/bamtama/my-tools-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "add-stream": "^1.0.0",
+    "buffer": "^6.0.3",
+    "chalk": "^5.3.0",
+    "commander": "^8.3.0",
+    "conventional-changelog": "^4.0.0",
+    "ftp": "^0.3.10",
+    "inquirer": "^8.2.6",
+    "minimatch": "^9.0.3",
+    "progress": "^2.0.3",
+    "semver": "^7.5.4",
+    "shelljs": "^0.8.5",
+    "tempfile": "^3.0.0"
+  }
+}
