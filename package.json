@@ -21,6 +21,7 @@
     "buffer": "^6.0.3",
     "commander": "^8.3.0",
     "conventional-changelog": "^4.0.0",
+    "conventional-changelog-cli": "^3.0.0",
     "ftp": "^0.3.10",
     "inquirer": "^8.2.6",
     "minimatch": "^9.0.3",
