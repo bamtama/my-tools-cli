@@ -45,7 +45,7 @@ nf-deploy -cdir <your custom dir>
 > [处理中文：buffer](https://www.npmjs.com/package/buffer)
 
 
-## 自动生成版本号并更新相关文件，生成日志文件(测试中)
+## 自动生成版本号并更新相关文件，生成日志文件(测试中)，node@>=16的话推荐直接用[release-it](https://www.npmjs.com/package/release-it)
 ### 安装
 ```
 npm i my-tools-cli conventional-changelog conventional-changelog-cli -D
@@ -60,19 +60,21 @@ nf-release
 首次使用会在项目根目录下自动生成
 - 配置项文件 .my-tools-cli-config.json
 
-选择了版本号后，会询问git相关操作，并生成CAHNGELOG。建议发版打tag（目前不处理tag冲突，需保证tag不同）
+#### 使用流程（目前不处理tag冲突，需保证版本号不同）
 
-选择取消，则只会生成CAHNGELOG
+选择版本号 > commit > tag > push(current commit && tag)
+选择取消 > 生成changelog
 
-版本日志生成完全依赖conventional-changelog，可以根据自定义需求在配置中自行更换，默认为
-```conventional-changelog -p angular -i CHANGELOG.md -s```
+> 版本日志生成完全依赖conventional-changelog，可以根据自定义需求在配置中自行更换，默认为
+> ```conventional-changelog -p angular -i CHANGELOG.md -s```
 
 ### 配置项
 ````
 "version": {
   "match": "version: \\'(.*?)\\'", // 匹配规则
   "inFile": "src/utils/constant.js",  // 版本号输入文件
-  "outFile": "src/utils/constant.js"  // 输出文件
+  "outFile": "src/utils/constant.js",  // 输出文件
+  "changelog": "自定义生成changelog命令"
 }
 ````
 
@@ -82,4 +84,11 @@ nf-release
 > 
 > [conventional-changelog](https://www.npmjs.com/package/conventional-changelog)
 
+## 在scripts中配置自己需要的组合命令，例
 
+```
+  "upload": "nf-deploy",
+  "release": "nf-release",
+  "deploy": "vue-cli-service build && nf-deploy",
+  "publish": "nf-release && vue-cli-service build && nf-deploy"
+```
