@@ -1,3 +1,17 @@
+## [1.0.3](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.2...v1.0.3) (2023-08-24)
+
+
+### Bug Fixes
+
+* 忽略语句格式 ([4df0a05](https://gitee.com/bamtama/my-tools-cli/commits/4df0a05ca8c208f3d5a830a6d84f00d0ef9ed53f))
+
+
+### Performance Improvements
+
+* 分离tag和push，调整询问优先级 ([3b312af](https://gitee.com/bamtama/my-tools-cli/commits/3b312af341ac1b8cf4e08cddf3570fe61d013ef4))
+
+
+
 # [](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.1...v) (2023-08-22)
 
 
