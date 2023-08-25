@@ -6,7 +6,7 @@
 ## 上传打包内容到指定服务器目录
 ### 安装
 ```
-npm i my-tools-cli ftp buffer -D
+npm i my-tools-cli -D
 ```
 ### 使用
 ```
@@ -40,7 +40,7 @@ nf-deploy -cdir <your custom dir>
 ```
 > 参考依赖库
 >
-> [处理ftp传输：ftp](https://www.npmjs.com/package/ftp)：目前只支持ssh1
+> [处理ftp传输：ftp](https://www.npmjs.com/package/ftp)：目前服务器支持ssh1
 > 
 > [处理中文：buffer](https://www.npmjs.com/package/buffer)
 
