@@ -1,6 +1,6 @@
 {
   "name": "my-tools-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "my tools cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,9 @@
   },
   "author": "JulyYu",
   "license": "ISC",
-  "keywords": ["ftp"],
+  "keywords": [
+    "ftp"
+  ],
   "dependencies": {
     "add-stream": "^1.0.0",
     "buffer": "^6.0.3",

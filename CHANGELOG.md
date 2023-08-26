@@ -1,3 +1,7 @@
+## [1.0.4](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.3...v1.0.4) (2023-08-26)
+
+
+
 ## [1.0.3](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.2...v1.0.3) (2023-08-24)
 
 
