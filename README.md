@@ -62,8 +62,8 @@ nf-release
 
 #### 使用流程（目前不处理tag冲突，需保证版本号不同）
 
-选择版本号 > commit > tag > push(current commit && tag)
 选择取消 > 生成changelog
+选择版本号 > commit > tag > push > pushtag
 
 > 版本日志生成完全依赖conventional-changelog，可以根据自定义需求在配置中自行更换，默认为
 > ```conventional-changelog -p angular -i CHANGELOG.md -s```

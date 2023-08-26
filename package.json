@@ -14,8 +14,9 @@
     "type": "git",
     "url": "https://gitee.com/bamtama/my-tools-cli.git"
   },
-  "author": "",
+  "author": "JulyYu",
   "license": "ISC",
+  "keywords": ["ftp"],
   "dependencies": {
     "add-stream": "^1.0.0",
     "buffer": "^6.0.3",
