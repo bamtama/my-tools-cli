@@ -1,3 +1,12 @@
+## [1.0.5](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.4...v1.0.5) (2023-08-30)
+
+
+### Bug Fixes
+
+* 版本参数错误 ([ac644c2](https://gitee.com/bamtama/my-tools-cli/commits/ac644c2aafd8cad746a01c7a24ca2ff5792b7ec2))
+
+
+
 ## [1.0.4](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.3...v1.0.4) (2023-08-26)
 
 
