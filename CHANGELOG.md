@@ -1,3 +1,12 @@
+## [1.0.6](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.5...v1.0.6) (2023-11-28)
+
+
+### Bug Fixes
+
+* deployAuth初始化值获取错误 ([e943c6f](https://gitee.com/bamtama/my-tools-cli/commits/e943c6feb290e1f32e654cf0fd8dc87a99d1cea7))
+
+
+
 ## [1.0.5](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.4...v1.0.5) (2023-08-30)
 
 
