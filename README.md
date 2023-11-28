@@ -16,8 +16,7 @@ nf-deploy
 自动询问连接用户信息、上传目录名；连接成功后会清理对应远程目录，并上传本地目录文件
 
 首次使用会在项目根目录下生成对应的
-- 配置项文件 .my-tools-cli-config.json
-- 用户信息文件 .my-tools-cli-auth.json
+- 配置项文件及用户信息文件 .my-tools-cli-config.json
 - .gitignore中自动添加忽略配置项
 
 可以使用命令行参数自定义上传目录
