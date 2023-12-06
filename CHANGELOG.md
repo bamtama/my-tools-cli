@@ -1,3 +1,18 @@
+## [1.0.8](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.5...v1.0.8) (2023-12-06)
+
+
+### Bug Fixes
+
+* 某些情况下未写入gitignore信息 ([f0788e4](https://gitee.com/bamtama/my-tools-cli/commits/f0788e4a71e3d00a4cf20fffa3b714d91ee829c9))
+* deployAuth初始化值获取错误 ([e943c6f](https://gitee.com/bamtama/my-tools-cli/commits/e943c6feb290e1f32e654cf0fd8dc87a99d1cea7))
+
+
+### Features
+
+* 调整默认配置文件名 ([c390366](https://gitee.com/bamtama/my-tools-cli/commits/c39036641d9ef04bb72dd9b40093c46c514d3594))
+
+
+
 ## [1.0.7](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.5...v1.0.7) (2023-11-29)
 
 
