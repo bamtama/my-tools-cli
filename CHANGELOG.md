@@ -1,10 +1,17 @@
+## [1.0.10](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.9...v1.0.10) (2024-01-10)
+
+
+### Bug Fixes
+
+* 调整重传 ([b2e5f02](https://gitee.com/bamtama/my-tools-cli/commits/b2e5f0257b39a34ec47ac9c2700c197345268e45))
+
+
+
 ## [1.0.9](https://gitee.com/bamtama/my-tools-cli/compare/v1.0.5...v1.0.9) (2024-01-08)
 
 
 ### Bug Fixes
 
-* 某些情况下未写入gitignore信息 ([f0788e4](https://gitee.com/bamtama/my-tools-cli/commits/f0788e4a71e3d00a4cf20fffa3b714d91ee829c9))
-* deployAuth初始化值获取错误 ([e943c6f](https://gitee.com/bamtama/my-tools-cli/commits/e943c6feb290e1f32e654cf0fd8dc87a99d1cea7))
 * js书写版本降级；修复重连时未结束的问题；增加失败输出 ([7a03d10](https://gitee.com/bamtama/my-tools-cli/commits/7a03d1053ed44b7db2e3dfc998cb2a57ad48366a))
 
 
